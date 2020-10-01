@@ -5,7 +5,7 @@ Created on Sat Oct  6 22:41:37 2018
 @author: Akshat
 """
 
-# Load libraries
+# Loading libraries
 import pandas
 from pandas.plotting import scatter_matrix
 import matplotlib.pyplot as plt
@@ -21,7 +21,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
 
 
-#loading dataset
+#loading dataset of flowers
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'class']
 dataset = pandas.read_csv(url, names=names)
